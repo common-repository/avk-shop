@@ -1,0 +1,1594 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AVKShop Web2.0\n"
+"POT-Creation-Date: 2015-10-19 23:51+0300\n"
+"PO-Revision-Date: 2015-10-19 23:51+0300\n"
+"Last-Translator: Smiling_Hemp <support@avkproject.ru>\n"
+"Language-Team: Smiling_Hemp <support@avkproject.ru>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: avkshop-engine.class.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: avkshop-engine.class.php:160 includes/variables.class.php:284
+msgid "Загрузить файл ..."
+msgstr "Upload file ..."
+
+#: avkshop-engine.class.php:161 includes/html.class.php:65
+msgid "Загрузить"
+msgstr "Upload"
+
+#: avkshop-engine.class.php:162
+msgid "Скачать/Купить"
+msgstr "Download/Purchase"
+
+#: avkshop-engine.class.php:163 includes/html.class.php:70
+#: includes/html.class.php:182 includes/html.class.php:717
+#: pages/action_file.php:148
+msgid "Удалить"
+msgstr "Remove"
+
+#: avkshop-engine.class.php:164
+msgid "Счетчик"
+msgstr "Counter"
+
+#: avkshop-engine.class.php:165
+#, php-format
+msgid "Введены не все данные в %s"
+msgstr "Enter up all data in %s"
+
+#: avkshop-engine.class.php:185
+msgid "- форма добавления товара"
+msgstr "- the form of the addition product"
+
+#: avkshop-engine.class.php:236
+msgid "Поблагодарить"
+msgstr "Donate"
+
+#: includes/features.class.php:105
+msgid " Зачем так делаешь???"
+msgstr "Do not do it!"
+
+#: includes/features.class.php:183 includes/features.class.php:270
+msgid "Больше так не надо делать!!!"
+msgstr "Do not do it!"
+
+#: includes/features.class.php:255
+#, php-format
+msgid "Выберите %s способ оплаты"
+msgstr "Select %s a payment method"
+
+#: includes/features.class.php:258
+#, php-format
+msgid "Произошла ошибка, пожалуйста, начните %s процесс оплаты заново."
+msgstr "There was an error, please, begin %s payment process again."
+
+#: includes/features.class.php:280 includes/variables.class.php:240
+msgid "Покупатель"
+msgstr "Customer"
+
+#: includes/features.class.php:326
+msgid "Не правильно введено имя пользователя или пароль!"
+msgstr "\"Username or password entered is incorrect.\""
+
+#: includes/features.class.php:501 includes/variables.class.php:38
+msgid "Настройки"
+msgstr "Settings"
+
+#: includes/features.class.php:511 includes/variables.class.php:324
+#: pages/main_menu.php:28
+msgid "Главные настройки"
+msgstr "Manual sttings"
+
+#: includes/features.class.php:606 includes/features.class.php:656
+msgid "Еще не заходил"
+msgstr "I didn't come yet"
+
+#: includes/features.class.php:608 includes/features.class.php:659
+msgid "Подписан"
+msgstr "Subscribed"
+
+#: includes/features.class.php:609 includes/features.class.php:660
+msgid "Не подписан"
+msgstr "Not subscribed"
+
+#: includes/features.class.php:627
+#, php-format
+msgid "%s Post"
+msgid_plural "%s Posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/features.class.php:629
+#, php-format
+msgid " в журнале. %s Из них %d новых."
+msgstr "in log. %s of %d from them new."
+
+#: includes/features.class.php:631
+msgid " в журнале."
+msgstr "in the magazine."
+
+#: includes/features.class.php:639
+msgid "Имя Фамилия"
+msgstr "First Name Last Name"
+
+#: includes/features.class.php:641
+msgid "Статус подписчика"
+msgstr "Subscriber Status"
+
+#: includes/features.class.php:642
+msgid "Последний визит"
+msgstr "Last visit"
+
+#: includes/features.class.php:643
+msgid "Дата регистрации"
+msgstr "Signup date"
+
+#: includes/features.class.php:718
+msgid "Необходимо зарегистрироваться!"
+msgstr "You need to register!"
+
+#: includes/features.class.php:724
+msgid "Выберите систему оплаты!"
+msgstr "Select payment system!"
+
+#: includes/features.class.php:753 includes/features.class.php:769
+#: includes/features.class.php:780
+msgid "Не удалось получить ID товара. Сообщите об этом администратору."
+msgstr "Failed to get the product ID. Notify the administrator."
+
+#: includes/features.class.php:757
+msgid "Данный товар уже в корзине!"
+msgstr "This product in the basket!"
+
+#: includes/features.class.php:795
+msgid ""
+"Не удалось получить выбранную систему для оплаты товара. Сообщите об этом "
+"администратору."
+msgstr ""
+"Failed to get the selected system for the payment of the goods. Notify the "
+"administrator."
+
+#: includes/html.class.php:39 includes/html.class.php:46
+#: includes/html.class.php:53 includes/html.class.php:60
+#: includes/html.class.php:81 pages/action_file.php:69
+msgid "Нажмите, чтобы прочитать подробнее о настройке"
+msgstr "Click to read more about customizing"
+
+#: includes/html.class.php:121
+msgid "Данная страница выбрана для регистрации посетителей."
+msgstr "This page is selected for the registration of visitors."
+
+#: includes/html.class.php:122
+msgid ""
+"Данная страница выбрана финальной для регистрации. Введите текст, который "
+"должен отображаться только, что зарегистрированному посетителю."
+msgstr ""
+"This page is selected for the final registration. Enter the text you want to "
+"display only that registered visitor."
+
+#: includes/html.class.php:123
+msgid "Эта страница выбрана для авторизации с reCaptcha"
+msgstr "This page is selected for authorization with reCaptcha"
+
+#: includes/html.class.php:124
+msgid "Страница для вывода корзины покупателя."
+msgstr "Page to display the shopping cart."
+
+#: includes/html.class.php:125
+msgid ""
+"Страница для вывода статуса платежа. Для дальнейшей настройки перейдите по "
+"ссылкам"
+msgstr ""
+"Page to display the status of the payment. For further settings please go to"
+
+#: includes/html.class.php:142
+msgid "У данной записи есть неоплаченные заявки!!!"
+msgstr "In this record has outstanding bids !!!"
+
+#: includes/html.class.php:150
+msgid "Добавляем файл"
+msgstr "Add files"
+
+#: includes/html.class.php:154
+msgid "Выберите файл: "
+msgstr "Select files:"
+
+#: includes/html.class.php:157
+msgid "Загрузить файл"
+msgstr "Upload files"
+
+#: includes/html.class.php:162
+#, php-format
+msgid ""
+"Выберите файл для загрузки на сервер. %s Внимание: %s После выбора файла, "
+"загрузка начнется автоматически."
+msgstr ""
+"Select a file to upload. %s Warning:%s After selecting a file, the download "
+"will start automatically."
+
+#: includes/html.class.php:165 includes/html.class.php:181
+msgid "Отмена"
+msgstr "Cancel"
+
+#: includes/html.class.php:176
+msgid "Внимание!"
+msgstr "Attention!"
+
+#: includes/html.class.php:178
+#, php-format
+msgid ""
+"Это действие приведет к удалению файла на сервере! %s Вы уверены, что хотите "
+"сделать это?"
+msgstr ""
+"This action will delete the file on the server! %s are you sure you want to "
+"do this?"
+
+#: includes/html.class.php:197
+msgid "Введите Ваш логин!"
+msgstr "Enter your login!"
+
+#: includes/html.class.php:198 includes/html.class.php:350
+msgid "Логин"
+msgstr "Login"
+
+#: includes/html.class.php:200
+#, php-format
+msgid ""
+"Введите логин, которое будет использоваться для входа. Пример: %s Возможные "
+"символы"
+msgstr ""
+"Enter the username that will be used to login. Example:%s Possible characters"
+
+#: includes/html.class.php:201
+msgid "Не правильный пароль!"
+msgstr "Not a valid password!"
+
+#: includes/html.class.php:202 includes/html.class.php:352
+#: includes/html.class.php:665
+msgid "Пароль"
+msgstr "Password"
+
+#: includes/html.class.php:204
+#, php-format
+msgid ""
+"Пароль должен обязательно содержать как минимум одну заглавную букву, одну "
+"строчную букву и цифру. Пример: %s"
+msgstr ""
+"Password must contain at least one uppercase letter, one lowercase letters "
+"and numbers. Example:%s"
+
+#: includes/html.class.php:208
+msgid "Не правильный Nickname"
+msgstr "Not valid Nickname"
+
+#: includes/html.class.php:209
+msgid "Nickname"
+msgstr "Nickname"
+
+#: includes/html.class.php:211
+#, php-format
+msgid ""
+"Введите желаемое имя, которое будет отображаться на сайте. Пример: %s "
+"Возможные символы"
+msgstr ""
+"Enter the desired name to be displayed on the site. Example: %s Possible "
+"characters"
+
+#: includes/html.class.php:212
+msgid "Не правильный E-mail адрес!"
+msgstr "Do not valid E-mail address!"
+
+#: includes/html.class.php:213
+msgid "E-mail"
+msgstr "Email"
+
+#: includes/html.class.php:215
+#, php-format
+msgid "Введите E-mail. Пример: %s"
+msgstr "Enter your E-mail. Example: %s"
+
+#: includes/html.class.php:216
+msgid "Вы не ввели имя!"
+msgstr "You did not enter a name!"
+
+#: includes/html.class.php:217
+msgid "Имя"
+msgstr "First name"
+
+#: includes/html.class.php:219
+#, php-format
+msgid "Введите своё имя. Пример: %s"
+msgstr "Enter your name. Example: %s"
+
+#: includes/html.class.php:220
+msgid "Вы не ввели фамилию!"
+msgstr "Last Name field is mandatory."
+
+#: includes/html.class.php:221
+msgid "Фамилия"
+msgstr "Last name"
+
+#: includes/html.class.php:223
+#, php-format
+msgid "Введите свою фамилию. Пример: %s"
+msgstr "Please enter your last name. Example: %s"
+
+#: includes/html.class.php:225
+msgid "Быть в курсе"
+msgstr "Be aware of"
+
+#: includes/html.class.php:227
+msgid ""
+"Оставьте галочку в чекбоксе если хотите подписаться на рассылку новостей"
+msgstr ""
+"Leave a tick in the checkbox if you want to subscribe to the newsletter"
+
+#: includes/html.class.php:235
+msgid "reCaptcha была введена не верно!"
+msgstr "reCaptcha was introduced not true!"
+
+#: includes/html.class.php:238 includes/html.class.php:245
+#: includes/html.class.php:357
+msgid "Регистрироваться"
+msgstr "Register"
+
+#: includes/html.class.php:242
+msgid "Забыли пароль?"
+msgstr "Forgot password?"
+
+#: includes/html.class.php:319
+msgid "Оплаченное"
+msgstr "Paid"
+
+#: includes/html.class.php:331 includes/html.class.php:338
+#, php-format
+msgid "В корзине: %d&nbsp;шт."
+msgstr "In the basket: %d&nbsp;items."
+
+#: includes/html.class.php:332
+msgid "На сумму"
+msgstr "To the amount of"
+
+#: includes/html.class.php:333 includes/html.class.php:395
+msgid "Перейти в корзину"
+msgstr "View Cart"
+
+#: includes/html.class.php:373
+msgid "Войти"
+msgstr "Login"
+
+#: includes/html.class.php:384
+#, php-format
+msgid "Выйти %s"
+msgstr "Log out %s"
+
+#: includes/html.class.php:407
+msgid "В корзину"
+msgstr "Add to cart"
+
+#: includes/html.class.php:418
+msgid "Оплатить"
+msgstr "Payment"
+
+#: includes/html.class.php:430
+msgid "Скачать"
+msgstr "Download"
+
+#: includes/html.class.php:434
+msgid "Скачано"
+msgstr "Downloaded"
+
+#: includes/html.class.php:448
+msgid "Продолжить"
+msgstr "Continue"
+
+#: includes/html.class.php:494
+msgid "Способ оплаты:"
+msgstr "Payment method:"
+
+#: includes/html.class.php:515
+msgid "Удалить из корзины"
+msgstr "Remove from Cart"
+
+#: includes/html.class.php:521 includes/html.class.php:543
+msgid "Итого"
+msgstr "Total"
+
+#: includes/html.class.php:603
+msgid "Чтобы купить авторизуйтесь"
+msgstr "To buy become authorized"
+
+#: includes/html.class.php:604
+msgid "Чтобы cкачать авторизуйтесь"
+msgstr "To download become authorized"
+
+#: includes/html.class.php:624 includes/html.class.php:664
+msgid "Итог"
+msgstr "Subtotal"
+
+#: includes/html.class.php:628 includes/html.class.php:668
+#, php-format
+msgid "Включить %s Выключить"
+msgstr "Enable %s Disable"
+
+#: includes/html.class.php:630 includes/html.class.php:670
+#: includes/variables.class.php:159 includes/variables.class.php:176
+#: includes/variables.class.php:215
+msgid "Включить"
+msgstr "Enable"
+
+#: includes/html.class.php:631 includes/html.class.php:671
+#: includes/variables.class.php:159 includes/variables.class.php:176
+#: includes/variables.class.php:216
+msgid "Выключить"
+msgstr "Disable"
+
+#: includes/html.class.php:632 includes/html.class.php:672
+msgid "Тестовый режим"
+msgstr "Test mode"
+
+#: includes/html.class.php:635
+msgid "ID Магазина"
+msgstr "Store ID"
+
+#: includes/html.class.php:636 includes/variables.class.php:151
+msgid "Секретный ключ"
+msgstr "Secret key"
+
+#: includes/html.class.php:637
+msgid "Тестовый ключ "
+msgstr "Test key"
+
+#: includes/html.class.php:639 includes/html.class.php:679
+msgid "Вы не выбрали страницу «Статус платежа»"
+msgstr "You have not selected page \"Payment status\""
+
+#: includes/html.class.php:641 includes/html.class.php:681
+msgid "Название переменной"
+msgstr "The name of the variable"
+
+#: includes/html.class.php:644
+msgid "успешной оплаты"
+msgstr "successful payment"
+
+#: includes/html.class.php:646 includes/html.class.php:690
+msgid "Сообщение при совершённой оплаты товара"
+msgstr "Payment fail message"
+
+#: includes/html.class.php:649
+msgid "при отказе оплаты"
+msgstr "at payment refusal"
+
+#: includes/html.class.php:651 includes/html.class.php:695
+msgid "Сообщение при отказе оплаты товара"
+msgstr "The message at refusal of payment of goods"
+
+#: includes/html.class.php:654
+msgid "ожидания проведения платежа"
+msgstr "expectation of payment"
+
+#: includes/html.class.php:656
+msgid "Сообщение при ожидании проведения платежа"
+msgstr "Message waiting of payment"
+
+#: includes/html.class.php:658 includes/html.class.php:697
+#: pages/main_menu.php:56
+msgid "Сохранить"
+msgstr "Save"
+
+#: includes/html.class.php:663
+msgid "Значение"
+msgstr "Value"
+
+#: includes/html.class.php:675
+msgid "Идентификатор магазина"
+msgstr "Store ID"
+
+#: includes/html.class.php:702
+msgid "Нет записей в журнале"
+msgstr "No log entries"
+
+#: includes/html.class.php:708
+msgid "Не удалось зачитать файл"
+msgstr "Unable to read file"
+
+#: includes/html.class.php:711
+msgid "Сообщение"
+msgstr "Message"
+
+#: includes/html.class.php:711
+msgid "Дата"
+msgstr "Date"
+
+#: includes/html.class.php:837
+msgid "Внимание"
+msgstr "Warning"
+
+#: includes/html.class.php:838
+msgid "Ошибка"
+msgstr "Error"
+
+#: includes/html.class.php:845
+msgid "Закрыть"
+msgstr "Close"
+
+#: includes/library.class.php:30
+msgid "Журнал"
+msgstr "Entire Log"
+
+#: includes/library.class.php:31
+msgid "Просмотр и управления записями в журнале оплат"
+msgstr "View and manage records in the journal of payments"
+
+#: includes/library.class.php:33 includes/library.class.php:47
+msgid "Настройка платежного шлюза"
+msgstr "Setting up a payment gateway"
+
+#: includes/library.class.php:145
+#, php-format
+msgid "В запросе от InterKassa не хватило данных, %s"
+msgstr "At the request of the InterKassa not enough data, %s"
+
+#: includes/library.class.php:153
+msgid "Не балуйся!!!"
+msgstr "Don't play about!!!"
+
+#: includes/library.class.php:168
+msgid "В запросе от InterKassa неправильная электронная подпись"
+msgstr "At the request of the wrong electronic signature InterKassa"
+
+#: includes/library.class.php:200
+msgid "Отказ клиента от оплаты RoboKassa. Заказ #"
+msgstr "Failure of the client to pay RoboKassa. Order #"
+
+#: includes/library.class.php:237
+#, php-format
+msgid "В запросе «%s» от RoboKassa был указан не существующий E-mail"
+msgstr "The request «%s» has been specified by RoboKassa defunct E-mail"
+
+#: includes/library.class.php:243
+#, php-format
+msgid ""
+"В запросе «%s» от RoboKassa, была передана неправильная сумма. Ожидалось "
+"«%d», пришло «%d»."
+msgstr ""
+"The request «%s» by RoboKassa, was handed over to the wrong amount. It was "
+"expected «%d», it «%d»."
+
+#: includes/library.class.php:260
+#, php-format
+msgid ""
+"Товар «%s» был оплачен. ID заказа «%d». Цена товара: «%s». Платежная "
+"система: «%s». Тип запроса: «%s»."
+msgstr ""
+"Product «%s» has been paid. Order ID «%d». Price of goods: «%s». Payment "
+"system: «%s». Type of Request: «%s»."
+
+#: includes/library.class.php:277
+#, php-format
+msgid ""
+"Товар «%s» был оплачен, но запись в БД не обновилась. ID заказа «%d». Цена "
+"товара: «%s». Тип запроса: «%s»."
+msgstr ""
+"Product «%s» has been paid, but the record in the database is not updated. "
+"Order ID «%d». Price of goods: «%s». Type of Request: «%s»."
+
+#: includes/library.class.php:302
+msgid "В запросе от RoboKassa, кеш запроса от "
+msgstr "At the request of the RoboKassa, cache request from"
+
+#: includes/library.class.php:305
+msgid "В запросе от RoboKassa не хватало данных!"
+msgstr "At the request of the RoboKassa lacked data!"
+
+#: includes/library.class.php:326
+#, php-format
+msgid ""
+"Не одинаковое количество значений в массивах с ID заказов и ID постов в "
+"сообщении от «%s». Сообщение имело следующий текст «%s»."
+msgstr ""
+"Not the same number of values in the array with the order ID and ID stations "
+"in the message from «%s». The message was the following text «%s»."
+
+#: includes/library.class.php:333
+#, php-format
+msgid ""
+"Не удалось получить массив с ID заказов и тем из сообщения от %s. Сообщение "
+"имело следующий текст «%s»."
+msgstr ""
+"Unable to get an array of orders and the ID of the message from %s. The "
+"message was the following text «%s»."
+
+#: includes/variables.class.php:36
+msgid "Введите данные"
+msgstr "Enter the data"
+
+#: includes/variables.class.php:39
+msgid "Основные настройки"
+msgstr "Manual sttings"
+
+#: includes/variables.class.php:44
+msgid "Включить плагин"
+msgstr "Enable plugin"
+
+#: includes/variables.class.php:45 includes/variables.class.php:52
+#: includes/variables.class.php:59
+msgid "Включено"
+msgstr "Enabled"
+
+#: includes/variables.class.php:45 includes/variables.class.php:52
+#: includes/variables.class.php:59
+msgid "Выключено"
+msgstr "Disabled"
+
+#: includes/variables.class.php:46
+msgid "Для активизации всех опций плагина, необходимо его включить!"
+msgstr "To activate all options plugin, you need to turn it on!"
+
+#: includes/variables.class.php:53
+msgid ""
+"Опция позволяет включить/выключить использование метода WEB 2.0 в Вашем "
+"магазине."
+msgstr ""
+"This option allows you to enable / disable the use of the method of WEB 2.0 "
+"in your store."
+
+#: includes/variables.class.php:58
+msgid "Транслит постоянных ссылок"
+msgstr "Transliteration permalink"
+
+#: includes/variables.class.php:60
+msgid ""
+"Настройка включает транслит постоянных ссылок, которые формируются при "
+"создании поста"
+msgstr ""
+"Setup involves transliteration permanent links that are formed when you "
+"create a post"
+
+#: includes/variables.class.php:65
+msgid "Валюта"
+msgstr "Currency"
+
+#: includes/variables.class.php:66
+msgid "Российский рубль"
+msgstr "Russian Ruble"
+
+#: includes/variables.class.php:67
+msgid "Украинская гривна"
+msgstr "Ukraine Hryvnia"
+
+#: includes/variables.class.php:68
+msgid "Доллар США"
+msgstr "U.S. dollar"
+
+#: includes/variables.class.php:69
+msgid "Евро"
+msgstr "Euro"
+
+#: includes/variables.class.php:70
+msgid "Выберите валюту, с которой будет работать Ваш магазин"
+msgstr "Select the currency which will run your store"
+
+#: includes/variables.class.php:73
+msgid "Количество загрузок"
+msgstr "Download count"
+
+#: includes/variables.class.php:75
+#, php-format
+msgid ""
+"Установите, какое количество скачиваний может произвести клиент после оплаты "
+"товара. %s По умолчанию 3 раза. %s"
+msgstr ""
+"Set how many downloads can produce customer after payment of the goods. %s "
+"Default 3 times. %s"
+
+#: includes/variables.class.php:78
+msgid "Настройки директории для файлов"
+msgstr "Settings folder for files"
+
+#: includes/variables.class.php:83
+msgid "Родительский каталог"
+msgstr "The parent directory"
+
+#: includes/variables.class.php:84
+msgid "Корневая директория сайта"
+msgstr "Root directory site"
+
+#: includes/variables.class.php:85
+msgid "Директория плагина "
+msgstr "Directory plugin"
+
+#: includes/variables.class.php:86
+msgid "Директория PLUGINS"
+msgstr "Directory PLUGINS"
+
+#: includes/variables.class.php:87
+msgid "Директория UPLOADS"
+msgstr "Directory UPLOADS"
+
+#: includes/variables.class.php:88
+#, php-format
+msgid "Директория %s"
+msgstr "Directory %s"
+
+#: includes/variables.class.php:90
+msgid ""
+"Выберите родительский каталог, в котором будет располагаться <b>«Основной "
+"каталог»</b> с вашими файлами."
+msgstr ""
+"Select the parent folder in which will be located <b>\"The main catalog\"</"
+"b> your files."
+
+#: includes/variables.class.php:93
+msgid "Основной каталог"
+msgstr "Main directory"
+
+#: includes/variables.class.php:95
+msgid ""
+"Введите любое произвольное имя для каталога, который будет хранить Ваши "
+"платные и бесплатные файлы. <br />ВНИМАНИЕ:<br /> Используйте буквы "
+"латинского алфавита, без пробелов!!!"
+msgstr ""
+"Enter any arbitrary name for the folder that will store your files free and "
+"paid. <br /> ATTENTION: <br /> Use Latin letters, without spaces !!!"
+
+#: includes/variables.class.php:98
+msgid "Страницы для плагина"
+msgstr "Pages plugin"
+
+#: includes/variables.class.php:101
+msgid "Страница для регистрации"
+msgstr "Page for registration"
+
+#: includes/variables.class.php:103
+msgid ""
+"Впишите ID страницы, которая будет использоваться для регистрации клиентов."
+msgstr "Enter the ID of the page that will be used to register clients."
+
+#: includes/variables.class.php:106
+msgid "Финальная страница регистрации"
+msgstr "The final registration page"
+
+#: includes/variables.class.php:108
+msgid "Впишите ID страницы, которая будет выводиться при успешной регистрации."
+msgstr ""
+"Enter the ID of the page that will be displayed upon successful registration."
+
+#: includes/variables.class.php:116
+msgid "Страница авторизации"
+msgstr "Login Page"
+
+#: includes/variables.class.php:118
+msgid ""
+"Впишите ID страницы, которая будет использоваться при авторизации посетителя "
+"после того как он ввел неправильные данные при первой авторизации."
+msgstr ""
+"Enter the ID of the page that will be used for authorization visitor after "
+"he entered the wrong data in the first authorization."
+
+#: includes/variables.class.php:121
+msgid "Корзина с товаром"
+msgstr "Basket of goods"
+
+#: includes/variables.class.php:123
+msgid ""
+"Впишите ID страницы, которая будет использоваться для вывода содержимого "
+"корзины для последующей оплаты или удаления товара из неё."
+msgstr ""
+"Enter the ID of the page that will be used to display the contents of the "
+"basket for subsequent payment or removal of goods from it."
+
+#: includes/variables.class.php:126
+msgid "Статус платежа"
+msgstr "Payment status"
+
+#: includes/variables.class.php:128
+msgid ""
+"Впишите ID страницы, которая будет использоваться для вывода клиенту статуса "
+"о совершенном платеже."
+msgstr ""
+"Enter the ID of the page that will be used to display the status of a client "
+"making a payment."
+
+#: includes/variables.class.php:131
+msgid "Настройки безопасности"
+msgstr "Privacy settings"
+
+#: includes/variables.class.php:137 includes/variables.class.php:223
+msgid "Использовать"
+msgstr "Use"
+
+#: includes/variables.class.php:137 includes/variables.class.php:224
+msgid "Не использовать"
+msgstr "Don't use"
+
+#: includes/variables.class.php:138
+msgid ""
+"Использование reCAPTCHA защищает Вас от злоумышленников желающих навредить "
+"Вашему сайту при регистрации и авторизации."
+msgstr ""
+"Using reCAPTCHA protects you from intruders who want to harm your site in "
+"the registration and authorization."
+
+#: includes/variables.class.php:141
+msgid "Индивидуальная защита"
+msgstr "Individual protection"
+
+#: includes/variables.class.php:143
+#, php-format
+msgid ""
+"Измените фразу по умолчанию! Вписав собственную фразу, состоящую из "
+"латинского алфавита и цифр, %s БЕЗ ПРОБЕЛОВ %s !!! Это позволит использовать "
+"индивидуальную защиту для вашего сайта!"
+msgstr ""
+"Change the phrase by default! Inscribed own phrase, consisting of the Latin "
+"alphabet and numbers,%s No spaces%s !!! This will allow the use of "
+"individual protection for your site!"
+
+#: includes/variables.class.php:146
+msgid "Публичный ключ"
+msgstr "Publishable key"
+
+#: includes/variables.class.php:148
+msgid "Введите Публичный ключ, полученный при регистрации на сайте"
+msgstr "Enter the public key obtained by registering on the site"
+
+#: includes/variables.class.php:153
+msgid "Введите Секретный ключ, полученный при регистрации на сайте"
+msgstr "Enter the secret key obtained by registering on the site"
+
+#: includes/variables.class.php:156
+msgid "Проверка формы"
+msgstr "Verification form"
+
+#: includes/variables.class.php:160
+msgid ""
+"Опция включает проверку регистрационной формы на клиентской стороне и "
+"позволяет сократить лишние запросы к серверу. Данная опция не влияет на "
+"проверку данных на серверной стороне."
+msgstr ""
+"The option includes checking the registration form on the client side and "
+"can reduce unnecessary requests to the server. This option does not affect "
+"data validation on the server side."
+
+#: includes/variables.class.php:163
+msgid "Имя таблицы покупок"
+msgstr "Name of the table of purchases"
+
+#: includes/variables.class.php:165
+#, php-format
+msgid ""
+"Вы можете ввести собственное имя таблицы учета покупок или оставить по "
+"умолчанию %s. После перейдите на %s страницу %s и нажмите кнопку «Создать». "
+"%s ВНИМАНИЕ!!! %s Имя таблицы должно быть уникальным"
+msgstr ""
+"You can enter your own name, or a table of purchase accounting to leave the "
+"default%s. After, go to %s page %s and click \"Create.\" %s WARNING !!! %s "
+"table name must be unique"
+
+#: includes/variables.class.php:168
+msgid "Имя таблицы загрузок"
+msgstr "Name of the table of loadings"
+
+#: includes/variables.class.php:170
+#, php-format
+msgid ""
+"Вы можете ввести собственное имя таблицы учета загрузок или оставить по "
+"умолчанию %s. После перейдите на %s страницу %s и нажмите кнопку «Создать». "
+"%s ВНИМАНИЕ!!! %s Имя таблицы должно быть уникальным"
+msgstr ""
+"You can enter your own table name registration downloads or leave the default"
+"%s. After, go to %s page %s and click \"Create.\" %s WARNING !!! %s table "
+"name must be unique"
+
+#: includes/variables.class.php:173
+msgid "Востановление пароля"
+msgstr "Recovery of the password"
+
+#: includes/variables.class.php:177
+msgid ""
+"Данная опция позволяет для покупателей скрыть/отобразить ссылку для "
+"восстановления пароля."
+msgstr ""
+"This option allows customers to hide / display a link to reset your password."
+
+#: includes/variables.class.php:180
+msgid "Настройки дизайна"
+msgstr "Style design options"
+
+#: includes/variables.class.php:183
+msgid "Вид reCAPTCHA"
+msgstr "Type of reCAPTCHA"
+
+#: includes/variables.class.php:186
+msgid "Красный"
+msgstr "Red"
+
+#: includes/variables.class.php:187
+msgid "Белый"
+msgstr "White"
+
+#: includes/variables.class.php:188
+msgid "Черный"
+msgstr "Black"
+
+#: includes/variables.class.php:189
+msgid "Прозрачный"
+msgstr "Transparent"
+
+#: includes/variables.class.php:190
+msgid "Собственный дизайн"
+msgstr "Own design"
+
+#: includes/variables.class.php:191
+#, php-format
+msgid ""
+"Выберите дизайн reCAPTCHA подходящий Вашему сайту. Так же вы можете создать "
+"собственный дизайн. Более подробно о дизайне reCAPTCHA читайте %s здесь %s."
+msgstr ""
+"Choose a suitable design reCAPTCHA your site. You can also create your own "
+"design. More details about the design reCAPTCHA %s read is%s."
+
+#: includes/variables.class.php:194
+msgid "Текст reCAPTCHA"
+msgstr "Text reCAPTCHA"
+
+#: includes/variables.class.php:195
+msgid "Введите текст картинки"
+msgstr "Enter text from the picture"
+
+#: includes/variables.class.php:196
+msgid "Введите текст, который будет отображаться в поле ввода reCAPTCHA."
+msgstr "Enter the text that will be displayed in the input field reCAPTCHA."
+
+#: includes/variables.class.php:199
+msgid "Тип кнопок"
+msgstr "Type of buttons."
+
+#: includes/variables.class.php:202
+msgid "CSS кнопки"
+msgstr "CSS buttons"
+
+#: includes/variables.class.php:203
+msgid "Черные кнопки"
+msgstr "Black buttons"
+
+#: includes/variables.class.php:204
+msgid "Синие кнопки"
+msgstr "Blue button"
+
+#: includes/variables.class.php:205
+msgid "Зеленые кнопки"
+msgstr "Green button"
+
+#: includes/variables.class.php:206
+msgid "Фиолетовые кнопки"
+msgstr "Purple button"
+
+#: includes/variables.class.php:207
+msgid "Красные кнопки"
+msgstr "Red buttons"
+
+#: includes/variables.class.php:208
+msgid "Пользовательские кнопки"
+msgstr "Custom buttons"
+
+#: includes/variables.class.php:209
+msgid ""
+"Выберите дизайн кнопок. Так же можете использовать кнопки с Вашим дизайном, "
+"для этого создайте 5-ть изображений с расширением PNG, дайте им название:"
+"<br />кнопка входа =  login_customer.png<br />выхода = logout_customer."
+"png<br />добавить в корзину = paid_customer.png<br />скачать = "
+"download_customer.png<br />купить = buy_customer.png<br />Для придания CSS "
+"стилей используйте класс <b><i>avk_buttons_customer</i></b>"
+msgstr ""
+
+#: includes/variables.class.php:212
+msgid "Подсказки"
+msgstr "Tooltips"
+
+#: includes/variables.class.php:217
+msgid "Включить/Выключить всплывающие подсказки при регистрации"
+msgstr "Enable / Disable tooltips for registration"
+
+#: includes/variables.class.php:220
+msgid "Логотип"
+msgstr "Logo"
+
+#: includes/variables.class.php:225
+msgid ""
+"Вы можете использовать свой логотип, который выводится вместе с формой "
+"регистрации или восстановления пароля, для этого включите данную опцию и "
+"вставьте в поле «Ссылка на логотип» ссылку, ведущую на сам логотип."
+msgstr ""
+"You can use your logo that is displayed along with the registration form or "
+"the password recovery, this enable this option and insert in the \"Logo Link"
+"\" link, which leads to the logo itself."
+
+#: includes/variables.class.php:228
+msgid "Ссылка на логотип"
+msgstr "Logo link"
+
+#: includes/variables.class.php:230
+msgid ""
+"Данная опция меняет стандартный логотип над регистрационной формой "
+"WordPress. Загрузите свой логотип при помощи стандартного WordPress "
+"загрузчика, скопируйте ссылку изображения и вставьте в это поле. Логотип "
+"должен быть размером 548*126."
+msgstr ""
+"This option changes the standard logo on the registration form WordPress. "
+"Upload your own logo using the standard WordPress boot image, copy the link "
+"and paste it in this field. The logo should be the size of 548 * 126."
+
+#: includes/variables.class.php:234
+msgid "Пользователи"
+msgstr "Users"
+
+#: includes/variables.class.php:237
+msgid "Роль "
+msgstr "Role"
+
+#: includes/variables.class.php:241
+msgid "Подписчик"
+msgstr "Subscriber"
+
+#: includes/variables.class.php:242
+msgid ""
+"Выберите роль, которая присвоится пользователю при регистрации.<br /"
+"><b>Внимание:</b> пользователь с ролью <b>«Покупатель»</b> не сможет зайти в "
+"админ панель вашего сайта."
+msgstr ""
+"Select the role that is assigned to the user during registration. <br /"
+"><b>Warning: The</b> user with the role <b>\"Buyer\"</b> will not go to the "
+"admin panel of your site."
+
+#: includes/variables.class.php:252
+msgid "Добавить продукт:"
+msgstr "Add product:"
+
+#: includes/variables.class.php:254
+msgid "Добавить"
+msgstr "Add"
+
+#: includes/variables.class.php:254 includes/variables.class.php:298
+msgid "Убрать"
+msgstr "Remove"
+
+#: includes/variables.class.php:255
+msgid "Опция добавляет/удаляет товар на странице превью товара."
+msgstr "The option adds / deletes items on the page preview of the goods."
+
+#: includes/variables.class.php:259
+msgid "Название продукта:"
+msgstr "Product name:"
+
+#: includes/variables.class.php:261
+msgid ""
+"Введите название продукта, которое будет отображаться на странице с превью "
+"товаром в виде заголовка."
+msgstr ""
+"Enter a product name that will be displayed on the page with a preview of "
+"the goods in the form of a header."
+
+#: includes/variables.class.php:265
+msgid "Описание продукта:"
+msgstr "Product description:"
+
+#: includes/variables.class.php:267
+msgid ""
+"Введите описание продукта, которое будет отображаться на странице с превью "
+"товаром в виде DIV блока или в качестве значения атрибута TITLE."
+msgstr ""
+"Enter a description of the product to be displayed on the page with a "
+"preview of the goods in the form DIV block or attribute value TITLE."
+
+#: includes/variables.class.php:271
+msgid "Тип продукта:"
+msgstr "Product type:"
+
+#: includes/variables.class.php:273
+#: module/customer-information/module-customer-information.class.php:150
+msgid "Платный"
+msgstr "Paid"
+
+#: includes/variables.class.php:273
+#: module/customer-information/module-customer-information.class.php:149
+msgid "Бесплатный"
+msgstr "Free"
+
+#: includes/variables.class.php:274
+msgid "Выберите, к какой категории относится Ваш продукт."
+msgstr "Choose which category your product."
+
+#: includes/variables.class.php:278
+msgid "Цена продукта:"
+msgstr "Product price:"
+
+#: includes/variables.class.php:280
+msgid "Введите цену продукта."
+msgstr "Enter the price of the product."
+
+#: includes/variables.class.php:285
+msgid "Продукт:"
+msgstr "Product:"
+
+#: includes/variables.class.php:286
+msgid ""
+"Нажмите на кнопку добавить/удалить, чтобы загрузить файл и закрепить его за "
+"этой записью или удалить, чтобы закрепить новый."
+msgstr ""
+"Click on the Add / Remove button to download the file and assign it to this "
+"record or delete to secure a new one."
+
+#: includes/variables.class.php:290
+msgid "Имя продукта:"
+msgstr "Product name:"
+
+#: includes/variables.class.php:292
+msgid ""
+"Введите для продукта имя, которое будет присваиваться при скачивании файла."
+msgstr ""
+"Enter a name for the product that will be assigned when downloading a file."
+
+#: includes/variables.class.php:296
+msgid "Отображение счетчика:"
+msgstr "Displaying the counter:"
+
+#: includes/variables.class.php:298
+msgid "Показывать"
+msgstr "View"
+
+#: includes/variables.class.php:299
+msgid "Опция показывает/скрывает счетчик загрузок на странице с превью товара."
+msgstr ""
+"This option shows / hides the download counter on the page with a preview of "
+"the product."
+
+#: includes/variables.class.php:303
+msgid "Счетчик загрузок:"
+msgstr "Counter downloads:"
+
+#: includes/variables.class.php:305
+msgid "Данная опция отображает количество скачиваний данного товара."
+msgstr "This option displays the number of downloads of the product."
+
+#: includes/variables.class.php:310
+msgid "Настройка систем оплат"
+msgstr "Setting payment system"
+
+#: includes/variables.class.php:311 includes/variables.class.php:326
+msgid "Системы оплаты"
+msgstr "Payment systems"
+
+#: includes/variables.class.php:316
+msgid "Инструменты для"
+msgstr "Tools"
+
+#: includes/variables.class.php:317 includes/variables.class.php:327
+#: pages/action_file.php:36
+msgid "Инструменты"
+msgstr "Tools"
+
+#: includes/variables.class.php:325
+msgid "Клиенты и продажи"
+msgstr "Customers and sales"
+
+#: includes/widget.class.php:12
+#, php-format
+msgid ""
+"Используйте этот виджет, чтобы добавить форму входа/корзины Вашего магазина "
+"или вставьте код %s в любом весте вашего шаблона."
+msgstr ""
+"Use this widget to add the login form / cart your store or paste the code %s "
+"in any guide your template."
+
+#: includes/widget.class.php:13
+#, php-format
+msgid "Корзина %s"
+msgstr "Basket %s"
+
+#: includes/widget.class.php:33
+msgid "Title:"
+msgstr "Title:"
+
+#: lib/file-action.class.php:48
+msgid "Не удалось удалить файл!"
+msgstr "Failed to delete the file!"
+
+#: lib/file-action.class.php:58
+msgid ""
+"Вы не ввели название директории в поле «Основной каталог», на странице "
+"«Главные настройки»."
+msgstr ""
+"You have not entered the name of the directory in the \"home directory\" on "
+"the page \"General settings\"."
+
+#: lib/file-action.class.php:66
+#, php-format
+msgid "Не удалось создать корневую директорию «%s»."
+msgstr "Failed to create root directory «%s»."
+
+#: lib/file-action.class.php:80
+#, php-format
+msgid "Установите на директорию «%s» права 0755."
+msgstr "Set on a directory of \"%s\" of the right 0755."
+
+#: lib/file-action.class.php:91
+msgid "Нельзя загрузить файл без расширения!!!"
+msgstr "You can not upload a file with no extension !!!"
+
+#: lib/file-action.class.php:100
+msgid "Файл с таким именем уже существует!!!"
+msgstr "A file with that name already exists !!!"
+
+#: lib/file-action.class.php:119
+msgid "Не удалось записать файл .HTACCESS, попробуйте заново загрузить файл!"
+msgstr "Failed to write file .HTACCESS, try again to download a file!"
+
+#: lib/file-action.class.php:149
+msgid "Не удалось загрузить файл!"
+msgstr "It wasn't succeeded to load the file!"
+
+#: lib/file-action.class.php:153
+msgid "Недопустимый размер файла!"
+msgstr "Invalid file size!"
+
+#: lib/file-action.class.php:170
+msgid ""
+"Размер файла больше разрешенного директивой upload_max_filesize в php.ini."
+msgstr "File size more than allowed upload_max_filesize directive in php.ini."
+
+#: lib/file-action.class.php:171
+msgid "Размер файла превышает указанное значение в MAX_FILE_SIZE."
+msgstr "File size exceeds the specified value in MAX_FILE_SIZE."
+
+#: lib/file-action.class.php:172
+msgid "Файл был загружен только частично."
+msgstr "The file was only partially uploaded."
+
+#: lib/file-action.class.php:173
+msgid "Не был выбран файл для загрузки."
+msgstr "No file is selected for download."
+
+#: lib/file-action.class.php:174
+msgid "Не найдена папка для временных файлов."
+msgstr "Do not locate the folder for temporary files."
+
+#: lib/file-action.class.php:175
+msgid "Ошибка записи файла."
+msgstr "Error writing file."
+
+#: lib/file-action.class.php:176
+msgid ""
+"Случилось что-то непонятное. Файл не загружен или загружен с ошибками. "
+"Повторите загрузку!!!"
+msgstr ""
+"It happened something strange. The file is not loaded or loaded with errors. "
+"Repeat download !!!"
+
+#: module/customer-information/module-customer-information.class.php:31
+msgid "Активность"
+msgstr "Activity"
+
+#: module/customer-information/module-customer-information.class.php:39
+msgid "Скачано бесплатного товара"
+msgstr "Downloaded free goods"
+
+#: module/customer-information/module-customer-information.class.php:41
+msgid "Куплено товара"
+msgstr "Purchased goods"
+
+#: module/customer-information/module-customer-information.class.php:47
+msgid "Информация"
+msgstr "Information"
+
+#: module/customer-information/module-customer-information.class.php:48
+msgid "Показать"
+msgstr "Show"
+
+#: module/customer-information/module-customer-information.class.php:80
+msgid "Скачал(a)"
+msgstr "Downloaded"
+
+#: module/customer-information/module-customer-information.class.php:81
+msgid "Купил(a)"
+msgstr "Buy"
+
+#: module/customer-information/module-customer-information.class.php:90
+#: module/customer-information/module-customer-information.class.php:118
+msgid "Нет действий"
+msgstr "No action"
+
+#: module/customer-information/module-customer-information.class.php:94
+#: module/customer-information/module-customer-information.class.php:122
+msgid "Название"
+msgstr "Title"
+
+#: module/customer-information/module-customer-information.class.php:95
+#: module/customer-information/module-customer-information.class.php:123
+msgid "Описание"
+msgstr "Description"
+
+#: module/customer-information/module-customer-information.class.php:96
+#: module/customer-information/module-customer-information.class.php:124
+msgid "Кол-во скачиваний"
+msgstr "Number of downloadings"
+
+#: module/customer-information/module-customer-information.class.php:97
+msgid "Тип товара"
+msgstr "Product Types"
+
+#: module/customer-information/module-customer-information.class.php:98
+msgid "Последний раз"
+msgstr "Last time"
+
+#: module/customer-information/module-customer-information.class.php:125
+msgid "Доступное кол-во"
+msgstr "Available quantity"
+
+#: module/customer-information/module-customer-information.class.php:126
+msgid "Система оплаты"
+msgstr "Payment systems"
+
+#: module/customer-information/module-customer-information.class.php:127
+msgid "Дата покупки"
+msgstr "Purchase Date"
+
+#: pages/action_file.php:12
+#, php-format
+msgid "Файл %s удален."
+msgstr "File %s deleted"
+
+#: pages/action_file.php:13
+#, php-format
+msgid "Файл %s не удален!"
+msgstr "File %s not deleted!"
+
+#: pages/action_file.php:15
+msgid "Не выбран файл!"
+msgstr "No file selected!"
+
+#: pages/action_file.php:17
+#, php-format
+msgid "Файл %s не существует!"
+msgstr "File %s does not exists."
+
+#: pages/action_file.php:31
+msgid "Создать"
+msgstr "Create"
+
+#: pages/action_file.php:33
+msgid "запрос"
+msgstr "query"
+
+#: pages/action_file.php:41
+msgid "Менеджер файлов"
+msgstr "File manager"
+
+#: pages/action_file.php:47
+msgid "Выберите файл"
+msgstr "Select files"
+
+#: pages/action_file.php:71
+msgid ""
+"Из выпадающего списка выберите файл, который необходимо удалить с Вашего "
+"сервера, и нажмите кнопку «Удалить файл»."
+msgstr ""
+"From the drop-down list, select the file you want to delete from your "
+"server, and then click \"Delete Files\"."
+
+#: pages/action_file.php:76
+msgid "Удалить файл"
+msgstr "Delete file"
+
+#: pages/action_file.php:82
+msgid "Менеджер таблиц БД"
+msgstr "Manager database tables"
+
+#: pages/action_file.php:86
+#, php-format
+msgid ""
+"ВНИМАНИЕ!!! Введены не все данные. Прейдите на страницу %s настроек %s, "
+"введите название таблиц и нажмите кнопку «Сохранить»."
+msgstr ""
+"ATTENTION !!! Enter at all the data. Praed page %ssettings%s, enter the name "
+"of the table and click \"Save\"."
+
+#: pages/action_file.php:91
+#, php-format
+msgid ""
+"ВНИМАНИЕ!!! %s В Вашей базе данных еще нет таблиц необходимых для работы "
+"плагина. Для того чтобы они появились, нажмите кнопу «Создать» или можете "
+"создать таблицы при помощи SQL запроса приведенного ниже:"
+msgstr ""
+"ATTENTION !!! %s in your database tables do not already have the necessary "
+"plugin to work. In order for them to appear, click Knop \"Create\" or you "
+"can create tables using the SQL query below:"
+
+#: pages/action_file.php:105
+#, php-format
+msgid ""
+"ВНИМАНИЕ!!! %s По каким-то причинам таблица для учёта покупок не была "
+"создана. Попробуйте еще раз создать таблицу, нажав на кнопку «Создать»."
+msgstr ""
+"ATTENTION !!! %s For some reason the table to account for purchases has not "
+"been created. Try again to create the table by clicking on the button "
+"\"Create\"."
+
+#: pages/action_file.php:112
+msgid ""
+"Если после повторной попытки создания таблицы, вы вновь увидите данное "
+"сообщение, Вам необходимо будет создать таблицу в ручную используя SQL "
+"запрос приведенный ниже:"
+msgstr ""
+"If, after repeated attempts to create a table, you see this message again, "
+"you will need to create a table manually using a SQL query below:"
+
+#: pages/action_file.php:120
+#, php-format
+msgid ""
+"ВНИМАНИЕ!!! %s По каким-то причинам таблица для учёта загрузок не была "
+"создана. Попробуйте еще раз создать таблицу, нажав на кнопку «Создать»."
+msgstr ""
+"ATTENTION !!! %s For some reason the table to account for downloads has not "
+"been created. Try again to create the table by clicking on the button "
+"\"Create\"."
+
+#: pages/action_file.php:127
+msgid ""
+"Если после повторной попытки создания таблицы, вы вновь увидите данное "
+"сообщение, Вам необходимо создать таблицу в ручную используя SQL запрос "
+"приведенный ниже:"
+msgstr ""
+"If, after repeated attempts to create a table, you see this message again, "
+"you must create the table manually using a SQL query below:"
+
+#: pages/action_file.php:135
+#, php-format
+msgid "Все в порядке, таблицы %s и %s созданы."
+msgstr "Everything is all right, the tables %s and %s are created."
+
+#: pages/action_file.php:143 pages/main_menu.php:62
+msgid "Внимание!!!"
+msgstr "Warning!!!"
+
+#: pages/action_file.php:144
+msgid "Данное действие удалит файл <b id=”name_del_file_avk”></b>."
+msgstr "This action deletes the file <b id=”name_del_file_avk”></b> ."
+
+#: pages/action_file.php:145 pages/main_menu.php:64
+msgid "Вы уверенны, что хотите сделать это?"
+msgstr "Are you sure you want to do this?"
+
+#: pages/action_file.php:147 pages/main_menu.php:66
+msgid "Отменить"
+msgstr "Cancel"
+
+#: pages/main_menu.php:17
+#, php-format
+msgid ""
+"Вы активировали плагин %s, для корректной его работы заполните поля %s на "
+"данной странице используя выпадающие подсказки, и только после этого %s "
+"включите плагин %s."
+msgstr ""
+"You activated %s plugin, for its incorrect operation fill the %s fields on "
+"this page using the falling-out helps, and only after that %s include %s "
+"plugin."
+
+#: pages/main_menu.php:20 pages/tables.php:9
+#, php-format
+msgid "Настройки %s сохранены."
+msgstr "Setting %s saved."
+
+#: pages/main_menu.php:21
+#, php-format
+msgid "Настройки %s небыли сохранены!"
+msgstr "The %s settings weren't saved!"
+
+#: pages/main_menu.php:22
+#, php-format
+msgid "Настройки плагина %s установлены по умолчанию."
+msgstr "Settings plugin %s installed by default."
+
+#: pages/main_menu.php:23
+#, php-format
+msgid "В процессе возникли проблемы, настройки плагина %s не сброшены!"
+msgstr "In the course of any problems, configure plugin %s is not reset!"
+
+#: pages/main_menu.php:38
+#, php-format
+msgid ""
+"ВНИМАНИЕ!!! %s В Вашей базе данных еще нет таблиц необходимых для работы "
+"плагина. Для того чтобы они появились, перейдите на %s страницу инструментов "
+"%s и в разделе «Менеджер таблиц БД» нажмите кнопку «Создать»."
+msgstr ""
+"ATTENTION !!! %s in your database tables do not already have the necessary "
+"plugin to work. In order for them to appear, go to the %s page tools %s in "
+"the \"Manager database tables\", click \"Create.\""
+
+#: pages/main_menu.php:57
+msgid "Сбросить данные"
+msgstr "Reset data"
+
+#: pages/main_menu.php:63
+#, php-format
+msgid ""
+"Данное действие %s удалит %s все Ваши настройки плагина %s и восстановит все "
+"настройки по умолчанию!"
+msgstr ""
+"This action will %sremove%s all your plugin configuration%s and restore the "
+"default settings!"
+
+#: pages/main_menu.php:67
+msgid "Сбросить"
+msgstr "Reset"
+
+#: pages/sidebar.php:8
+msgid "Следить за мной"
+msgstr "Follow me"
+
+#: pages/sidebar.php:37
+msgid "Помощь проекту"
+msgstr "Donate"
+
+#: pages/sidebar.php:43
+msgid "более безопасный и легкий способ оплаты через Интернет!"
+msgstr "is the faster, safer way to pay and get paid online."
+
+#: pages/tables.php:15
+msgid "Информация о Ваших клиентах и продажах"
+msgstr "Information about your customers and sales"
+
+#: pages/tables.php:16 pages/tables.php:17
+msgid "Настройка платежной системы"
+msgstr "Setting payment system"
+
+#. Plugin Name of the plugin/theme
+msgid "AVK-Shop"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://avkproject.ru/avkshop-web20"
+msgstr "http://avkproject.ru/avkshop-web20"
+
+#. Description of the plugin/theme
+msgid "Плагин интерент магазина для продажи файлов любого формата."
+msgstr "Plugin interent shop for sale files of any format."
+
+#. Author of the plugin/theme
+msgid "Smiling_Hemp"
+msgstr "Smiling_Hemp"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/smiling_hemp#content-plugins"
+msgstr "https://profiles.wordpress.org/smiling_hemp#content-plugins"
+
+#~ msgid "Скачал"
+#~ msgstr "Downloaded"
+
+#~ msgid "Купил"
+#~ msgstr "Buy"
+
+#~ msgid "AVKShop Web2.0"
+#~ msgstr "AVKShop Web2.0"
+
+#~ msgid "Выберите %sспособ оплаты"
+#~ msgstr "Choose your form of payment"
+
+#~ msgid ""
+#~ "Данное действие <b>удалит</b> все Ваши настройки плагина %s и восстановит "
+#~ "все настройки по умолчанию!"
+#~ msgstr ""
+#~ "This action <b>will remove</b> all your settings plugin%s and restore the "
+#~ "default settings!"

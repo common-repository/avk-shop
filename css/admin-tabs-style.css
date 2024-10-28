@@ -1,0 +1,136 @@
+/* страница настроек */
+#middle {
+	width: 100%;
+	height: 1%;
+	position: relative;
+    min-width: 1050px;
+}
+#middle:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 0 320px 0 0;
+}
+#sideRight {
+	float: left;
+	margin-right: -3px;
+	width: 300px;
+	margin-left: -300px;
+	position: relative;
+}
+.hndleavk{ 
+    font-family: "Georgia", "Times New Roman", "Bitstream Charter", "Times", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0px;
+    padding: 7px 10px;
+    cursor: default!important;
+}
+.inside-content-avk{
+    width: 600px;
+    position: relative;
+    margin: 1px auto;
+}
+.inside-content-avk label{
+    width: 99%;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px auto 7px 15px;
+    display: block;
+    position: relative;
+    line-height: 5px;
+}
+.inside-content-avk label+input,
+.inside-content-avk label+select,
+.inside-content-avk label+textarea{
+    width: 99%;
+    padding: 3px 1px;
+    min-height: 30px;
+    text-align: center;
+    font-size: 13px;
+    margin: 3px auto 7px;
+}
+#table-logs-avkshop{
+    width: 100%;
+}
+#table-logs-avkshop th{
+    text-align: center;
+    background-image: -webkit-linear-gradient(top, #ECECEC, #F9F9F9);
+	background-image: -moz-linear-gradient(top, #ECECEC, #F9F9F9);
+	background-image: -ms-linear-gradient(top, #ECECEC, #F9F9F9);
+	background-image: -o-linear-gradient(top, #ECECEC, #F9F9F9);
+	background-image: linear-gradient(top, #ECECEC, #F9F9F9);
+    box-shadow: 0px 1px 0px #FFFFFF;
+}
+#table-logs-avkshop td{
+    text-align: center;
+    font-size: 14px;
+    padding: 4px 3px;
+    border-bottom: 1px inset gray;
+}
+#table-logs-avkshop td:first-child{
+    width: 30px;
+}
+#table-logs-avkshop td:first-child + td{
+    width: 200px;
+}
+#table-logs-avkshop td{
+    text-align: center;
+}
+#table-logs-avkshop td:last-child{
+    width: 150px;
+}
+.button-primary-del{
+    background: #b5272e!important;
+    background: -webkit-linear-gradient(top, #e45e40, #b5272e)!important;
+	background: -moz-linear-gradient(top, #e45e40, #b5272e)!important;
+	background: -ms-linear-gradient(top, #e45e40, #b5272e)!important;
+	background: -o-linear-gradient(top, #e45e40, #b5272e)!important;
+    box-shadow: inset 0px 1px 0px rgba(250, 157, 157, 0.506)!important;
+    border-color: #b5272e!important;
+}
+.button-primary-del:hover{
+    background: -webkit-linear-gradient(top, rgba(228, 94, 64, 0.9), #b5272e )!important;
+	background: -moz-linear-gradient(top, rgba(228, 94, 64, 0.9), #b5272e )!important;
+	background: -ms-linear-gradient(top, rgba(228, 94, 64, 0.9), #b5272e )!important;
+	background: -o-linear-gradient(top, rgba(228, 94, 64, 0.9), #b5272e )!important;
+}
+.updated, .error{
+    text-align: center;
+}
+.stat-url-robo{
+    position: relative;
+    margin-left: 20px;
+}
+.stat-url-robo var{
+    font-weight: 600;
+}
+.readonlyavk{
+    width: 80%;
+    font-weight: bold;
+}
+.dashicons-admin-setavk{
+    *vertical-align: middle;
+    padding-right: 7px;
+}
+.switch_input_field_avk{
+    width: 32px;
+    height: 32px;
+    background: transparent url("../images/eye-open-close.png") 0 0 no-repeat;
+    position: absolute;
+    display: inline-block;
+    margin-top: -3px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+.switch_input_field_click_avk{
+    background-position: 0 -32px!important;
+}

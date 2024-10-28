@@ -1,0 +1,623 @@
+@font-face { 
+   font-family: "titleFontAvk"; 
+   src: url("../font/segoeprb.ttf"); 
+}
+.avkmiddle{
+    width: 100%;
+}
+.avkcontentform{
+    display: table;
+    position: relative;
+    margin: 20px auto;
+}
+.dlavk{
+    display: table;
+}
+.dttitleavk{
+    margin-top: 8px;
+    padding-bottom: 15px;
+}
+.ddescavk{
+    width: 200px;
+    padding: 3px;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.150), 1px 1px 3px 2px rgba(0, 0, 0, 0.150);
+    z-index: 9999;
+}
+.ddescavk:before, .ddescavk:after{
+    position: absolute;
+    content: "";
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    
+}
+.ddescavk:before{
+    left: -20px;
+    top: 7px;
+    border-top: 12px solid rgba(0,0,0,0.5);
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 0;
+ }
+.ddescavk:after{
+    left: -14px;
+    top: 8px;
+    border-top: 10px solid rgba(255,255,255,0.85);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 0;
+}
+.avkmiddle .divlabel{
+    display: inline-block;
+    vertical-align: middle;
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+}
+.avkmiddle .divlabel label{
+    cursor:pointer;
+}
+.avkmiddle .inputregavk{
+    width: 280px;
+}
+.standartrecaptcha #recaptcha_area{
+    position: relative;
+    margin: 5px auto;
+}
+.botsubavk{
+    text-align: center;
+}
+.botsubavk button{
+    cursor: pointer;
+}
+.errmsgrec{
+    border: 1px solid #FF0000;
+    border-radius: 3px;
+    padding: 0px 0.6em;
+    text-align: center;
+    background: #FFEBE8 url("../images/warning.png") 5px 50% no-repeat;
+    background-size: 22px;
+    margin-top: 7px;
+}
+.errmsgrecavk{
+    padding: 0px 0.6em 0px 2em;
+}
+.errmsgrec p{
+    padding: 0!important;
+    margin: 0!important;
+}
+.recaptcha_input_area #recaptcha_response_field{
+    height: 28px;
+}
+#userloginameavk1, #userpasswavk1{
+    width: 90%;
+    position: relative;
+    margin: 5px 7px 10px;
+}
+#usermemavk{
+    margin-right: 7px;
+}
+.botwidavk{
+    text-align: center;
+    padding-top: 7px;
+}
+.botwidavk a.remeb{
+    margin-left: 15px;
+}
+.avtorezfor{
+    cursor: pointer;
+}
+.avkreglink{
+    margin-left: 20px;
+}
+
+/**-----Widget-----*/
+#wid-avkshopweb20{
+    /*border: 1px solid red;*/
+}
+#wid-avkshopweb20 .botwidavk{
+    /*border: 1px solid green;*/
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+#widget_cart_html{
+    margin-bottom: 15px;
+}
+#all_price_avk{
+    text-align: center;
+    margin: 7px auto;
+}
+/**-----Buttons-----*/
+.avk_buttons{
+    cursor: pointer;
+}
+.avk_buttons:focus{
+    outline: none;
+}
+.avk_buttons_purple,.avk_buttons_black,.avk_buttons_blue,
+.avk_buttons_green,.avk_buttons_red{
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 14px;
+	line-height: 1.428571429;
+	font-weight: normal;
+    padding: 0 2px 1px 7px;
+	background-repeat: repeat-x;
+    border: 2px solid #535353;
+    color: #ffffff!important;
+}
+.avk_buttons_purple:active, .avk_buttons_black:active, .avk_buttons_blue:active,
+.avk_buttons_green:active, .avk_buttons_red:active{
+    box-shadow: none!important;
+}
+.avk_buttons_purple{
+    box-shadow: 1px 1px 3px 2px rgba(81,21,93,0.7);
+    background-color: #34083e;
+    background-image: -webkit-linear-gradient(top, #9b55aa, #34083e);
+	background-image: -moz-linear-gradient(top, #9b55aa, #34083e);
+	background-image: -ms-linear-gradient(top, #9b55aa, #34083e);
+	background-image: -o-linear-gradient(top, #9b55aa, #34083e);
+	background-image: linear-gradient(top, #9b55aa, #34083e);
+}
+.avk_buttons_black{
+    box-shadow: 1px 1px 3px 1px rgba(77,77,77,0.7);
+    background-color: #222222;
+    background-image: -webkit-linear-gradient(top, #767676, #222222);
+	background-image: -moz-linear-gradient(top, #767676, #222222);
+	background-image: -ms-linear-gradient(top, #767676, #222222);
+	background-image: -o-linear-gradient(top, #767676, #222222);
+	background-image: linear-gradient(top, #767676, #222222);
+}
+.avk_buttons_blue{
+    box-shadow: 1px 1px 3px 1px rgba(20,56,80,0.7);
+    background-color: #0a263a;
+    background-image: -webkit-linear-gradient(top, #5e8198, #0a263a);
+	background-image: -moz-linear-gradient(top, #5e8198, #0a263a);
+	background-image: -ms-linear-gradient(top, #5e8198, #0a263a);
+	background-image: -o-linear-gradient(top, #5e8198, #0a263a);
+	background-image: linear-gradient(top, #5e8198, #0a263a);
+}
+.avk_buttons_green{
+    box-shadow: 1px 1px 3px 1px rgba(27,61,6,0.7);
+    background-color: #1a3d04;
+    background-image: -webkit-linear-gradient(top, #5c7540, #1a3d04);
+	background-image: -moz-linear-gradient(top, #5c7540, #1a3d04);
+	background-image: -ms-linear-gradient(top, #5c7540, #1a3d04);
+	background-image: -o-linear-gradient(top, #5c7540, #1a3d04);
+	background-image: linear-gradient(top, #5c7540, #1a3d04);
+}
+.avk_buttons_red{
+    box-shadow: 1px 1px 3px 1px rgba(79,13,16,0.7);
+    background-color: #3e0304;
+    background-image: -webkit-linear-gradient(top, #7b4449, #3e0304);
+	background-image: -moz-linear-gradient(top, #7b4449, #3e0304);
+	background-image: -ms-linear-gradient(top, #7b4449, #3e0304);
+	background-image: -o-linear-gradient(top, #7b4449, #3e0304);
+	background-image: linear-gradient(top, #7b4449, #3e0304);
+}
+.avk-typebutton-css:hover{
+    color: #ffffff;
+	background-color: #ebebeb;
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: linear-gradient(top, #f9f9f9, #ebebeb);
+}
+.avk_buttons_black:hover{
+    color: #ffffff;
+	background-color: #3f3f3f;
+    background-image: -webkit-linear-gradient(top, #8a8a8a, #3f3f3f);
+	background-image: -moz-linear-gradient(top, #8a8a8a, #3f3f3f);
+	background-image: -ms-linear-gradient(top, #8a8a8a, #3f3f3f);
+	background-image: -o-linear-gradient(top, #8a8a8a, #3f3f3f);
+	background-image: linear-gradient(top, #8a8a8a, #3f3f3f);
+}
+.avk_buttons_blue:hover{
+    color: #ffffff;
+	background-color: #103e5f;
+	background-image: -moz-linear-gradient(top, #719bb6, #103e5f);
+	background-image: -ms-linear-gradient(top, #719bb6, #103e5f);
+	background-image: -webkit-linear-gradient(top, #719bb6, #103e5f);
+	background-image: -o-linear-gradient(top, #719bb6, #103e5f);
+	background-image: linear-gradient(top, #719bb6, #103e5f);
+}
+.avk_buttons_green:hover{
+    color: #ffffff;
+	background-color: #265906;
+	background-image: -moz-linear-gradient(top, #6d8b4c, #265906);
+	background-image: -ms-linear-gradient(top, #6d8b4c, #265906);
+	background-image: -webkit-linear-gradient(top, #6d8b4c, #265906);
+	background-image: -o-linear-gradient(top, #6d8b4c, #265906);
+	background-image: linear-gradient(top, #6d8b4c, #265906);
+}
+.avk_buttons_purple:hover{
+    color: #ffffff;
+	background-color: #4b0c59;
+	background-image: -moz-linear-gradient(top, #ae60bf, #4b0c59);
+	background-image: -ms-linear-gradient(top, #ae60bf, #4b0c59);
+	background-image: -webkit-linear-gradient(top, #ae60bf, #4b0c59);
+	background-image: -o-linear-gradient(top, #ae60bf, #4b0c59);
+	background-image: linear-gradient(top, #ae60bf, #4b0c59);
+    box-shadow: 1px 1px 3px 1px rgba(81,21,93,0.7);
+}
+.avk_buttons_red:hover{
+    color: #ffffff;
+	background-color: #5a0506;
+	background-image: -moz-linear-gradient(top, #955258, #5a0506);
+	background-image: -ms-linear-gradient(top, #955258, #5a0506);
+	background-image: -webkit-linear-gradient(top, #955258, #5a0506);
+	background-image: -o-linear-gradient(top, #955258, #5a0506);
+	background-image: linear-gradient(top, #955258, #5a0506);
+}
+.avk_buttons_customer, .avk_buttons_customer:hover{
+    /**
+    * свой дизайн 
+    */
+}
+
+
+.avk-product{
+    text-align: center;
+}
+.avk-typebutton{}
+.avk-typebutton:hover{}
+.avk-typebutton-css,.avk-typebutton-black,.avk-typebutton-blue,
+.avk-typebutton-green,.avk-typebutton-purple,.avk-typebutton-red{
+    display: inline-block;
+    padding: 4px 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 14px;
+	line-height: 1.428571429;
+	font-weight: normal;    
+}
+.avk-typebutton-css{
+    border: 2px solid #D2D2D2;
+    background-color: #e6e6e6;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -ms-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -webkit-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: -o-linear-gradient(top, #f4f4f4, #e6e6e6);
+	background-image: linear-gradient(top, #f4f4f4, #e6e6e6);
+    box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);
+    color: #7c7c7c;
+}
+.avk-typebutton-black{
+    border: 2px solid #535353;
+    background-color: #222222;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #767676, #222222);
+	background-image: -ms-linear-gradient(top, #767676, #222222);
+	background-image: -webkit-linear-gradient(top, #767676, #222222);
+	background-image: -o-linear-gradient(top, #767676, #222222);
+	background-image: linear-gradient(top, #767676, #222222);
+    box-shadow: 0 1px 2px rgba(34, 34, 34, 0.1);
+    color: #ffffff!important;
+}
+.avk-typebutton-blue{
+    border: 2px solid #535353;
+    background-color: #0a263a;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #5e8198, #0a263a);
+	background-image: -ms-linear-gradient(top, #5e8198, #0a263a);
+	background-image: -webkit-linear-gradient(top, #5e8198, #0a263a);
+	background-image: -o-linear-gradient(top, #5e8198, #0a263a);
+	background-image: linear-gradient(top, #5e8198, #0a263a);
+    box-shadow: 0 1px 2px rgba(10, 38, 58, 0.1);
+    color: #ffffff!important;
+}
+.avk-typebutton-green{
+    border: 2px solid #535353;
+    background-color: #1a3d04;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #5c7540, #1a3d04);
+	background-image: -ms-linear-gradient(top, #5c7540, #1a3d04);
+	background-image: -webkit-linear-gradient(top, #5c7540, #1a3d04);
+	background-image: -o-linear-gradient(top, #5c7540, #1a3d04);
+	background-image: linear-gradient(top, #5c7540, #1a3d04);
+    box-shadow: 0 1px 2px rgba(26, 61, 4, 0.1);
+    color: #ffffff!important;
+}
+.avk-typebutton-purple{
+    border: 2px solid #535353;
+    background-color: #34083e;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #9b55aa, #34083e);
+	background-image: -ms-linear-gradient(top, #9b55aa, #34083e);
+	background-image: -webkit-linear-gradient(top, #9b55aa, #34083e);
+	background-image: -o-linear-gradient(top, #9b55aa, #34083e);
+	background-image: linear-gradient(top, #9b55aa, #34083e);
+    box-shadow: 0 1px 2px rgba(52, 8, 62, 0.1);
+    color: #ffffff!important;
+}
+.avk-typebutton-red{
+    border: 2px solid #535353;
+    background-color: #3e0304;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #7b4449, #3e0304);
+	background-image: -ms-linear-gradient(top, #7b4449, #3e0304);
+	background-image: -webkit-linear-gradient(top, #7b4449, #3e0304);
+	background-image: -o-linear-gradient(top, #7b4449, #3e0304);
+	background-image: linear-gradient(top, #7b4449, #3e0304);
+    box-shadow: 1px 1px 2px rgba(62, 3, 4, 0.3);
+    color: #ffffff!important;
+}
+.avk-typebutton-customer{
+    /**
+    * свой дизайн 
+    */
+}
+
+.avk-typebutton-css:hover{
+    color: #5e5e5e;
+	background-color: #ebebeb;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: linear-gradient(top, #f9f9f9, #ebebeb);
+}
+.avk-typebutton-black:hover{
+    color: #5e5e5e;
+	background-color: #3f3f3f;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #8a8a8a, #3f3f3f);
+	background-image: -ms-linear-gradient(top, #8a8a8a, #3f3f3f);
+	background-image: -webkit-linear-gradient(top, #8a8a8a, #3f3f3f);
+	background-image: -o-linear-gradient(top, #8a8a8a, #3f3f3f);
+	background-image: linear-gradient(top, #8a8a8a, #3f3f3f);
+}
+.avk-typebutton-blue:hover{
+    color: #5e5e5e;
+	background-color: #103e5f;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #719bb6, #103e5f);
+	background-image: -ms-linear-gradient(top, #719bb6, #103e5f);
+	background-image: -webkit-linear-gradient(top, #719bb6, #103e5f);
+	background-image: -o-linear-gradient(top, #719bb6, #103e5f);
+	background-image: linear-gradient(top, #719bb6, #103e5f);
+}
+.avk-typebutton-green:hover{
+    color: #5e5e5e;
+	background-color: #265906;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #6d8b4c, #265906);
+	background-image: -ms-linear-gradient(top, #6d8b4c, #265906);
+	background-image: -webkit-linear-gradient(top, #6d8b4c, #265906);
+	background-image: -o-linear-gradient(top, #6d8b4c, #265906);
+	background-image: linear-gradient(top, #6d8b4c, #265906);
+}
+.avk-typebutton-purple:hover{
+    color: #5e5e5e;
+	background-color: #4b0c59;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ae60bf, #4b0c59);
+	background-image: -ms-linear-gradient(top, #ae60bf, #4b0c59);
+	background-image: -webkit-linear-gradient(top, #ae60bf, #4b0c59);
+	background-image: -o-linear-gradient(top, #ae60bf, #4b0c59);
+	background-image: linear-gradient(top, #ae60bf, #4b0c59);
+}
+.avk-typebutton-red:hover{
+    color: #5e5e5e;
+	background-color: #5a0506;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #955258, #5a0506);
+	background-image: -ms-linear-gradient(top, #955258, #5a0506);
+	background-image: -webkit-linear-gradient(top, #955258, #5a0506);
+	background-image: -o-linear-gradient(top, #955258, #5a0506);
+	background-image: linear-gradient(top, #955258, #5a0506);
+}
+.avk-typebutton-customer:hover{
+    /**
+    * свой дизайн 
+    */
+}
+.avk_buttons:disabled, .pseudo-button-more-link:disabled{
+    box-shadow: none;
+    border-width: 1px;
+    opacity: 0.5;
+}
+img.button-free, img.button-paid, img.button-logout, img.button-login, img.button-further, img.button-buy{
+    width: 32px;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0 0 0 5px;
+    box-shadow: none!important;
+}
+button span.textavk{
+    vertical-align: middle;
+}
+/** Design reCAPTCHA */
+#recaptcha_image{
+    /* картинка */
+}
+.recaptcha_only_if_image{
+    /* текст перед полем ввода */
+}
+#recaptcha_response_field{
+    /* поле ввода */
+}
+.recaptcha_only_if_image{
+    /* переключатель аудио режим */
+}
+.recaptcha_only_if_audio{
+    /* переключатель в визуальный режим */
+}
+.recaptcha_audio_cant_hear_link{
+    /* послушать еще раз */
+}
+.reload_only_captcha{
+    /* обновить изображение */
+}
+.recaptcha_helper{
+    /* помощь */
+}
+
+
+
+
+#cart-content-avkshop{}
+
+.cart-list-avk, .list-systems-pay-avk{
+    width: 100%;
+    padding: 0;
+    /*border: 1px solid red;*/
+}
+.list-systems-pay-avk{
+    text-align: center;
+    padding-top: 10px;
+}
+.cart-list-avk li, .list-systems-pay-avk li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin-left: 0px;
+}
+.list-systems-pay-avk li{
+    margin-left: 7px!important;
+}
+.cart-list-avk li.cart-list-name-avk{
+    width: 150px;
+}
+.cart-list-price-avk{
+    min-width: 100px;
+}
+.del-form-avk{
+    height: 30px;
+    /*border: 1px solid yellow;*/
+}
+.del-form-avk input{
+    display: none!important;
+    width: 0px!important;
+    height: 0px!important;
+    position: relative!important;
+    float: left;
+}
+.cart-list-buttom-avk{
+    text-align: left;
+}
+.delbuttonavk, .delbuttonavk img{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none!important;
+    box-shadow: none!important;
+    vertical-align: middle;
+}
+.delbuttonavk:hover, .delbuttonavk:hover img{
+    margin: 0!important;
+    padding: 0!important;
+    background-color: transparent!important;
+    border: none!important;
+    box-shadow: none!important;
+    vertical-align: middle;
+}
+/* Форма олаты товара */
+#form-systems-pay-avkshop label{
+    width: 88px;
+    height: 31px;
+    display: block;
+    position: relative;
+    
+}
+#form-systems-pay-avkshop label input{
+    opacity: 0;
+}
+#form-systems-pay-avkshop label input + span{
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 4px;
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    cursor: pointer;
+}
+#form-systems-pay-avkshop label input[type="radio"] + span{
+    opacity: 1;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+#form-systems-pay-avkshop label input[type="radio"]:checked + span  	{
+    opacity: 0.59;
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.5);
+}
+p.container-button-avkshop{
+    text-align: center;
+}
+.fieldset-systems-pay-avk{
+    width: 100%;
+}
+.legend-systems-pay-avk{
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: "titleFontAvk";
+}
+#sales_receipt_avkshop dt span{
+    font-size: 14px;
+    font-weight: bold;
+}
+#sales_receipt_avkshop dd{
+    margin: auto auto 7px 40px;
+}
+#sales_receipt_avkshop dd var{
+    font-style: italic;
+}
+#sales_receipt_avkshop + dl{
+    text-align: center;
+    margin-top: 25px;
+}
+/** Окно с сообщением */
+.popup_window_mes_avkshop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.7;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+}
+.popup_message_avkshop{
+    position: fixed;
+    width: 450px;
+    border: 4px solid gray;
+    border-radius: 7px;
+    background: #ffffff url("../images/warning.png") 10px 10px no-repeat;
+    z-index: 999999;
+    opacity: 1!important;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+    padding: 7px 5px;
+    
+}
+.popup_message_avkshop h3{
+    font-size: 27px;
+    font-family: "titleFontAvk";
+    padding: 5px 10px 5px 2em;
+}
+.popup_content_avkshop{}
+.popup_message_content_avkshop{
+    display: table;
+    min-height: 70px!important;
+}
+.popup_message_content_avkshop p{
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 1.5em;
+    text-indent: 1.5em;
+}
+.popup_message_avkshop p.button-avkshop{
+    text-align: center;
+    position: relative;
+    margin-bottom: 8px;
+}
+.avk_buttons_text{
+    padding: 3px 7px!important;
+}

@@ -1,0 +1,66 @@
+.sidebar-soc-content{
+    *border: 1px solid red;
+    margin: 25px auto 7px;
+}
+.sidebar-soc-buttons{
+    margin: 5px auto;
+    width: 250px;
+    height: 55px;
+    border: 2px solid rgba(0,0,0,0.25);
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 7px 2px rgba(0,0,0,0.25);
+}
+.sidebar-soc-buttons:after{
+    z-index: 0;
+    position: absolute;
+    border-radius: 7px;
+    left: 19px;
+    top: -3px;
+    content: "";
+    height: 59px;
+    width: 254px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.25);
+}
+.sidebar-soc-button{
+    z-index: 1;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+    transform: rotate(-25deg);
+    margin: auto 10px 0 auto;
+    -webkit-transition: top 0.3s ease-in-out 0.1s, transform 0.2s ease-in-out 0.2s;
+    -moz-transition: top 0.3s ease-in-out 0.1s, transform 0.2s ease-in-out 0.2s;
+    -o-transition: top 0.3s ease-in-out 0.1s, transform 0.2s ease-in-out 0.2s;
+    transition: top 0.3s ease-in-out 0.1s, transform 0.2s ease-in-out 0.2s;
+}
+.sidebar-soc-button:hover{
+    -webkit-transition: top 0.55s ease-in-out 0.1s, transform 0.55s ease-in-out 0.1s;
+    -moz-transition: top 0.55s ease-in-out 0.1s, transform 0.55s ease-in-out 0.1s;
+    -o-transition: top 0.55s ease-in-out 0.1s, transform 0.55s ease-in-out 0.1s;
+    transition: top 0.55s ease-in-out 0.1s, transform 0.55s ease-in-out 0.1s;
+    top: 3px;
+    transform: rotate(0deg);
+}
+.sidebar-soc-button a, .sidebar-soc-button a:hover, .sidebar-soc-button a:active{
+    text-decoration: none;
+    outline: none;
+}
+.sidebar-soc-button a img{
+
+}
+.sidebar-soc-button a img:hover{
+
+}
+
+/* Donate */
+.avk-sidebar-donate{
+    text-align: center;
+}
+.avk-sidebar-donate form{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}

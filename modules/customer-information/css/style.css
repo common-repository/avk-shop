@@ -1,0 +1,116 @@
+@font-face { 
+   font-family: "titleFontAvk"; 
+   src: url("../../../font/segoeprb.ttf"); 
+}
+th.column-infobutton{
+    color: #21759B!important;
+}
+.info-user-button{
+    position: relative;
+    padding: 3px 7px;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px;
+    font-family: "titleFontAvk";
+    cursor: pointer;
+    background: -webkit-linear-gradient(top, #FEFEFE, #F4F4F4);
+	background: -moz-linear-gradient(top, #FEFEFE, #F4F4F4);
+	background: -ms-linear-gradient(top, #FEFEFE, #F4F4F4);
+	background: -o-linear-gradient(top, #FEFEFE, #F4F4F4);
+    background: linear-gradient(top, #FEFEFE, #F4F4F4) #F3F3F3;
+}
+.info-user-button:hover{   
+    background: -webkit-linear-gradient(bottom, #FEFEFE, #F4F4F4);
+	background: -moz-linear-gradient(bottom, #FEFEFE, #F4F4F4);
+	background: -ms-linear-gradient(bottom, #FEFEFE, #F4F4F4);
+	background: -o-linear-gradient(bottom, #FEFEFE, #F4F4F4);
+    background: linear-gradient(bottom, #FEFEFE, #F4F4F4);
+}
+.info-user-button:disabled{
+    opacity: 0.5;
+}
+#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0,0,0,0.59);
+    display: none;
+}
+#window-info-user{
+    position: relative;
+    background: #FFFFFF;
+    border: 5px solid #CCCCCC;
+    border-radius: 9px;
+    box-shadow: 0px 5px 7px rgba(0,0,0,0.7);
+    display: none;
+}
+#close{
+    width: 33px;
+    height: 33px;
+    position: absolute;
+    top: -32px;
+    right: -32px;
+    cursor: pointer;
+    background: url("../images/close.png") 50% 50% no-repeat;
+    z-index: 99999;
+}
+#avk-user-content{
+    width: 100%;
+    height: 99%;
+    background: transparent url("../images/loading.gif") 50% 50% no-repeat;
+    overflow-y: auto;
+}
+#tabs{
+    height: 100%;
+    border: none!important;
+}
+#tabs ul li a{
+    font-weight: bold;
+}
+.info_user_avk_div{
+    position: relative;
+    margin: auto auto 3px;
+    text-align: center;
+}
+.info_user_act{
+    cursor: help;
+}
+.ui-tabs-anchor, .ui-tabs-anchor:active{
+    outline: none!important;
+    box-shadow: none!important;
+}
+.avkshop_user{
+    width: 100%;
+    margin: 3px auto;
+    border: 1px solid #AAAAAA;
+    border-radius: 3px;    
+}
+.avkshop_user th{
+    text-align: center;
+    border: 1px solid #AAAAAA;
+    background: -webkit-linear-gradient(bottom, #E3E3E3, #CCCCCC);
+	background: -moz-linear-gradient(bottom, #E3E3E3, #CCCCCC);
+	background: -ms-linear-gradient(bottom, #E3E3E3, #CCCCCC);
+	background: -o-linear-gradient(bottom, #E3E3E3, #CCCCCC);
+    background: linear-gradient(bottom, #E3E3E3, #CCCCCC);
+}
+.avkshop_user td{
+    text-align: center;
+    border: 1px solid #AAAAAA;
+    background: #FBFBFB;
+}
+.avkshop_userv tr td:first-line{
+    padding: 1px 2px;
+}
+.avkshop_user td h4{
+    margin: 2px 3px;
+    font-family: "titleFontAvk";
+}
+h1.no-action-avk{
+    position: relative;
+    font-family: "titleFontAvk";
+    margin: 10px auto;
+    text-align: center;
+}
